@@ -1,17 +1,17 @@
-XCode File Templates - Guidelines Compliant
+Xcode File Templates - Guidelines Compliant
 ===========================================
 
-XCode 4 File Templates compliant with the Google Objective-C Style Guide.
+Xcode 4 File Templates compliant with the Google Objective-C Style Guide.
 
 Introduction
 ------------
 
-XCode 4 provides template files (used when creating a new file or adding code,
+Xcode 4 provides template files (used when creating a new file or adding code,
 f.e. by linking a new outlet or action) which are not compliant with the
 [Google Objective-C Style Guide](http://google-styleguide.googlecode.com/svn/trunk/objcguide.xml),
 most notably, they use 4 spaces for tabs and open brackets on new lines.
 This might cause unexpected behavior in
-XCode, which won't follow your custom indentation settings.
+Xcode, which won't follow your custom indentation settings.
 
 The included templates use **2 spaces** for indentation
 and put **opening brackets on the same line** as declarations.
